@@ -42,33 +42,33 @@ class pygame2exe(py2exe.build_exe.py2exe): #This hack make sure that pygame defa
 class BuildExe:
     def __init__(self):
         #Name of starting .py
-        self.script = "Grab.py"
+        self.script = "Platformer Project.py"
  
         #Name of program
-        self.project_name = "Grab"
+        self.project_name = "Platformer Project"
  
         #Project url
         self.project_url = "about:none"
  
         #Version of program
-        self.project_version = "2.3"
+        self.project_version = "0.1"
  
         #License of the program
-        self.license = "GNU License.txt", "GNU"
+        self.license = "GNU"
  
         #Auhor of program
         self.author_name = "HJ"
         self.author_email = "hj862@hotmail.com"
-        self.copyright = "Copyright (C) 2014-2015 by HJ."
+        self.copyright = "Copyright (C) 2016."
  
         #Description
-        self.project_description = "Grab version 2.3 made by HJ"
+        self.project_description = "Platformer Project"
  
         #Icon file (None will use pygame default icon)
-        self.icon_file = "data/icon.ico"
+        self.icon_file = None
  
         #Extra files/dirs copied to game
-        self.extra_datas = ["data", "Grab Changelog.bat", "Grab Information.txt", "GNU License.txt", "Grab.py", "GrabMenu.py", "Setup.py", "N64 button log.txt"]
+        self.extra_datas = ["data"]
  
         #Extra/excludes python modules
         self.extra_modules = []
