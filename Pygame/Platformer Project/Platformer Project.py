@@ -1,7 +1,17 @@
 #Platformer Project 2016
+#N64 Controller support
 import pygame, pygame._view, sys, os
 from pygame.locals import *
 pygame.init()
+pygame.joystick.init()
+
+try:
+    Joystick_N64 = pygame.joystick.Joystick(0)
+    Joystick_N64.init()
+    Joystick_Name = Joystick_N64.get_name()
+    print "Controller Found: " + Joystick_Name
+except:
+    pass
 
 os.environ["SDL_VIDEO_CENTERED"] = "1"
 pygame.display.set_caption("Platformer Project")
@@ -12,10 +22,43 @@ pygame.display.set_mode((window_height, window_length))
 
 running = True
 
-while running:
+while running == True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        #N64
+        elif event.type == pygame.JOYBUTTONDOWN:
+            print event
+        elif event.type == pygame.JOYBUTTONUP:
+            print event
+        if event.type == pygame.JOYBUTTONDOWN and event.button == 7:
+            print "A BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 6:
+            print "B BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 4:
+            print "START BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 13:
+            print "L BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 12:
+            print "R BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 5:
+            print "Z BUTTON"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 11:
+            print "C BUTTON UP"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 10:
+            print "C BUTTON DOWN"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 9:
+            print "C BUTTON LEFT"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 8:
+            print "C BUTTON RIGHT"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 3:
+            print "DPAD UP"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 2:
+            print "DPAD DOWN"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 1:
+            print "DPAD LEFT"
+        elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
+            print "DPAD RIGHT"
         
     pygame.display.update()
 
