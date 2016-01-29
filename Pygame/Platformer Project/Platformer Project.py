@@ -5,6 +5,7 @@ from pygame.locals import *
 pygame.init()
 pygame.joystick.init()
 
+#Controller Section
 try:
     Joystick_N64 = pygame.joystick.Joystick(0)
     Joystick_N64.init()
@@ -13,15 +14,24 @@ try:
 except:
     pass
 
+#Main
 os.environ["SDL_VIDEO_CENTERED"] = "1"
 pygame.display.set_caption("Platformer Project")
 pygame.mouse.set_visible(0)
 window_height = 800
 window_length = 800
 pygame.display.set_mode((window_height, window_length))
+#colors
+black = (0, 0, 0)
+white = (255, 255 255)
 
+#screen test
+
+
+#loop variable
 running = True
 
+#Loop
 while running == True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -59,6 +69,9 @@ while running == True:
             print "DPAD LEFT"
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
             print "DPAD RIGHT"
+        #Keyboard
+        if event.type == pygame.KEYDOWN and event.key == K_q:
+            running = False, pygame.quit(), sys.exit()
         
     pygame.display.update()
 
