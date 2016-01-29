@@ -20,15 +20,16 @@ pygame.display.set_caption("Platformer Project")
 pygame.mouse.set_visible(0)
 window_height = 800
 window_length = 800
-pygame.display.set_mode((window_height, window_length))
-#colors
+screen = pygame.display.set_mode((window_height, window_length))
+#Colors
 black = (0, 0, 0)
-white = (255, 255 255)
+white = (255, 255, 255)
+gray = (128, 128, 128)
 
-#screen test
+#Screen Section
+screen.fill(black)
 
-
-#loop variable
+#Loop Variable
 running = True
 
 #Loop
@@ -72,6 +73,11 @@ while running == True:
         #Keyboard
         if event.type == pygame.KEYDOWN and event.key == K_q:
             running = False, pygame.quit(), sys.exit()
+
+    #Font Section
+    font = pygame.font.SysFont("Times New Roman", 72)
+    text1 = font.render ("YOOOOOOOOOOOOOOOOOOO", True, (white))
+    screen.blit(text1,(100, 10))
         
     pygame.display.update()
 
