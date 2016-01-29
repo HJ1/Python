@@ -9,11 +9,9 @@ echo:
 echo Options:
 echo:
 echo บออออออออออออออออออออออออออออออออออออออออออออออออออออออออออบ
-<<<<<<< HEAD
-echo:บ                     Grab beta v2.4                       บ
-=======
-echo:บ                     Grab beta v2.1                       บ
->>>>>>> c677c529cdbb9188fead2c7e32c28c99069375f6
+echo:บ                                                          บ 
+echo:บ                    Grab beta v2.4                        บ
+echo:บ                                            		   บ
 echo:บ                                                          บ 
 echo บ 1. Code links                                            บ
 echo บ 2. Sources                                               บ
