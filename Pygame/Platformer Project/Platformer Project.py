@@ -71,13 +71,13 @@ while running == True:
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
             print "DPAD RIGHT"
         #Keyboard
-        if event.type == pygame.KEYDOWN and event.key == K_q:
+        if event.type == pygame.KEYDOWN and event.key == K_ESCAPE:
             running = False, pygame.quit(), sys.exit()
 
     #Font Section
-    font = pygame.font.SysFont("Times New Roman", 72)
-    text1 = font.render ("YOOOOOOOOOOOOOOOOOOO", True, (white))
-    screen.blit(text1,(100, 10))
+    font = pygame.font.SysFont("Times New Roman", 18)
+    text = font.render ("Version 0.1", False, (white))
+    screen.blit(text,(10, 10))
         
     pygame.display.update()
 
