@@ -1,6 +1,9 @@
+#Made by HJ - 7 February
+
 import pygame, sys #import modules, we use sys(system) to close the script.
 from pygame.locals import * 
 pygame.init() #initialize Pygame, get it running.
+pygame.display.set_caption("Pygame Music") #add the title of the script
 
 screen = pygame.display.set_mode((1, 1)) #in my experience we need a screen in order to play music. I add a small screen with 1x1 resolution. this is required to play music far as I know.
 print "Now playing music!" #a simple message
