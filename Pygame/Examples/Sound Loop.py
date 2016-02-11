@@ -1,24 +1,24 @@
-#Made by HJ - 11 February
-#Music plays from a file
+#Made by HJ - 7 February
+#Sound plays in a loop
 
 import pygame, sys #import modules, we use sys(system) to close the script.
 from pygame.locals import * 
 pygame.init() #initialize Pygame, get it running.
-pygame.display.set_caption("Pygame Music") #add the title of the script
+pygame.display.set_caption("Pygame Sound") #add the title of the script
 
 screen = pygame.display.set_mode((1, 1)) #in my experience we need a screen in order to play music. I add a small screen with 1x1 resolution. this is required to play music far as I know.
-print "Now playing music!" #a simple message
+print "Now playing sound in a continuous loop!" #a simple message
 
 #main loop
 running = True
 
 #values
-loop = 0 #Music plays once then it stops.
-volume = 0.7
+volume = 0.05
+loop = -1
 
-pygame.mixer.music.load('data/maintheme.ogg') #load the music, use this if the file is in a folder: "folder/music.mp3"
-pygame.mixer.music.set_volume(volume) #value for the volume
-pygame.mixer.music.play(loop) #play with a loop
+sound = pygame.mixer.Sound('data/fireball.ogg') #load the music, use this if the file is in a folder: "folder/music.mp3"
+sound.set_volume(volume)
+sound.play(loop)
 
 while running == True: #while script is running with main loop
     for event in pygame.event.get():

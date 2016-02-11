@@ -1,4 +1,5 @@
 #Made by HJ - 11 February
+#A custom mouse cursor example
 
 import pygame, sys #import modules, we use sys(system) to close the script.
 from pygame.locals import * 

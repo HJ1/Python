@@ -1,4 +1,4 @@
-#Made by HJ - 11 February
+#Made by HJ - 7 February
 #Music plays from a file
 
 import pygame, sys #import modules, we use sys(system) to close the script.
@@ -13,7 +13,7 @@ print "Now playing music!" #a simple message
 running = True
 
 #values
-loop = 0 #Music plays once then it stops.
+loop = -1 #Music plays in a loop.
 volume = 0.7
 
 pygame.mixer.music.load('data/maintheme.ogg') #load the music, use this if the file is in a folder: "folder/music.mp3"
