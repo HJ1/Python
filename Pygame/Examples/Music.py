@@ -15,7 +15,7 @@ running = True
 loop = -1
 volume = 0.7
 
-pygame.mixer.music.load('maintheme.ogg') #load the music, use this if the file is in a folder: "folder/music.mp3"
+pygame.mixer.music.load('data/maintheme.ogg') #load the music, use this if the file is in a folder: "folder/music.mp3"
 pygame.mixer.music.set_volume(volume) #value for the volume
 pygame.mixer.music.play(loop) #play with a loop
 
