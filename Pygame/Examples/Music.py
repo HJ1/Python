@@ -26,7 +26,7 @@ while running == True: #while script is running with main loop
         if event.type == pygame.KEYDOWN and event.key == K_ESCAPE: #if we press Escape key we close the script
             running = False, pygame.quit(), sys.exit()
 
-pygame.display.update
+pygame.display.update()
 
 pygame.quit()
     
