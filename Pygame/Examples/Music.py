@@ -1,5 +1,5 @@
 #Made by HJ - 11 February
-#Music plays from a file
+#Music plays from a file once
 
 import pygame, sys #import modules, we use sys(system) to close the script.
 from pygame.locals import * 

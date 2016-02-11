@@ -1,0 +1,50 @@
+# Floor 5. Made by John Burns. Edited by Michael Burns for optimum performance.
+# W = Platform. Collides on top, bottom, and sides.
+# w = Platform. Collides on bottom and sides.
+# X = Platform. Collides on top and sides.
+# x = Platform. Collides on sides only.
+# P = Player.
+# c = Coin.
+# b = Bomber. (Baddie)
+
+Title: The Modem
+Layout
+................................................................................
+.......................cccccccc..c..ccc...cc....cc..cc....cc..cccc.cccc...cccccc
+....................WWWWWWWWWWW..W..WWW...WW....WW..WW....WW..WWWW.WWWW...WWWWWW
+..................c............................................................x
+..................W............................................................x
+................c.x............................................................x
+................W.x...........................................................Wx
+..............c...x......................Wc..................ccc..c.cc.......Wxx
+..............W...x......................xc..................WWWccWsWW......Wxxx
+............c.....x......................xc.....................WWWW.......Wxxxx
+............W.....x......................xc.............cc................Wxxxxx
+..........csssssssx......................xc....W.b.W....WW...............Wxxxxxx
+..........Wwwwwwwww......................xc....xWWWxccssW...............Wxxxxxxx
+.........X...............................xc....x...WWWWW...............Wxxxxxxxx
+......c..w...............................xc....x......................Wxxxxxxxxx
+......W..................................WWWsssx...................WWWxxxxxxxxxx
+..W.....cc..................................WWW....................xxxxxxxxxxxxx
+ccccc...WW.......................................................W.xxxxxxxxxxxxx
+WWWWW........W.b.W.................................................xxxxxxxxxxxxx
+..........W...WWWW..W..b.CCCCCb.W..............................W...xxxxxxxxxxxxx
+....................WWWWWWWWWWWWW..................................xxxxxxxxxxxxx
+...................................W.........................W.....xxxxxxxxxxxxx
+................................cccxc..............................xxxxxxxxxxxxx
+...............................sWWWWW......................W.......xxxxxxxxxxxxx
+......................ccccc....WWWWWWWW............................xxxxxxxxxxxxx
+......................WWWWWW.............................W.........xxxxxxxxxxxxx
+..............ccccccc..............................................xxxxxxxxxxxxx
+........ccccccWWWWWWW..................................W...........xxxxxxxxxxxxx
+.P.....WWWWWWWWWWWWWWs....s..b.b....Ws........s.....s..Wsssssssssssxxxxxxxxxxxxx
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWssWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWx
+
+Dialogue
+Sheesh.
+That last level was 
+ridiculous...
+This must be the modem...
+I better be careful.
+This is where the virus
+must have entered.

@@ -1,4 +1,4 @@
-#Made by HJ - 7 February
+#Made by HJ - 11 February
 #Sound plays from a file 5x times
 
 import pygame, sys #import modules, we use sys(system) to close the script.

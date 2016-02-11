@@ -1,0 +1,60 @@
+# Floor 9. Made by Michael Burns
+# W = Platform. Collides on top, bottom, and sides.
+# w = Platform. Collides on bottom and sides.
+# X = Platform. Collides on top and sides.
+# x = Platform. Collides on sides only.
+# P = Player.
+# c = Coin.
+# b = Bomber. (Baddie)
+
+Title: The USB Drive
+Layout
+................................................................................
+...cccccccccssscccccccsccccccccssscccccsscccccsccccccccssccccccccccccsccccccsccc
+...WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W..............................................................................x
+...............................................................................x
+sWWWWWsssWsssWssWsssWWWsssWssWsssWWsssWsssWssWsssWssWssWsssWsWssssWsssWssWssW..x
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW...x
+..............................................................................cx
+..........................cc.................................................cWx
+.............c...........cWWc....cc....cc..........................c........cW.x
+....c...cc...Wcc....W...cW..Wc...WWcc..WWc..c..c...c..c...c...c...cW...c...cW..x
+...sWsssWWssssWWsssWssssWssssWssWWsWWssssWssWssWsssWssWsssWsssWsssWWsssWsssWsssx
+...WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWx
+..W............................................................................x
+c...........c..........................c.............c.........................x
+Wc.......c..W..c........c...c.....c...cWc...cc.......W.....c....ccc............x
+xcc......WccW..Wc..cc...W.b.Wc...cW...cxc...WW...c...xc....Wc...WWW....cc.....cx
+WWWssWWsssWWWssWWssWWsssWWWWWWsssWxsssWxWssssssssWsssxWssssxWsssxxxssssWWsss..Wx
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWc..x
+............................................................................W..x
+..............................................................................cx
+..........c........c....c....c...c...c.........c...c...c..c..c.......ccc..c..cWx
+W..ccc...cW...c...cW..ccW....W...W.b.W...cc...cW.b.W...W..W..W..W.b.bWWW..W..WWx
+...WWWsssWWsssWsssWWssWWWssssWsssWWWWssssWWsssWWWWWssssssssssssssWWWWsssWWWWWWWx
+...WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWx
+..W............................................................................x
+.........c...........c.......c............................................c....x
+c.......cW......c..ccWcc....cW........................c.....cc..........ccWc...x
+Wcccc...WW..cc..W..WWWWW.b.bWW...W.b..W..........ccc..Wc..ccWW...W......WWWW.P.x
+WWWWWsssWWssWWssWssWWWWWWWWWWWsssWWWWWWsssWssWsssWWWssWWssWWWWssWWWssWWWWWWWWWWx
+
+Dialogue
+Guess what!
+This looks like...
+THE LAST FLOOR!!!
+But...
+it doesn't...
+look...
+to...
+easy...
+ACTUALLY...
+It looks,
+REALLY...
+HARD!!!
+Six floors to climb!
+With low ceilings...
+Seriously...
+Who does this programmer
+think he is?
