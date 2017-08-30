@@ -1,5 +1,0 @@
-default
-walking
-arrow
-shouting
-dying

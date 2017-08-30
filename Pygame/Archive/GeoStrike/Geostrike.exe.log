@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "Geostrike.pyw", line 683, in <module>
-  File "Geostrike.pyw", line 680, in main
-  File "Geostrike.pyw", line 391, in Menu
-  File "Geostrike.pyw", line 662, in Game
-  File "Geostrike.pyw", line 97, in save
-IOError: [Errno 22] invalid mode ('wr') or filename: 'data\\highscores.txt'

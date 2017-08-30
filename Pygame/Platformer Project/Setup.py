@@ -42,7 +42,7 @@ class pygame2exe(py2exe.build_exe.py2exe): #This hack make sure that pygame defa
 class BuildExe:
     def __init__(self):
         #Name of starting .py
-        self.script = "Platformer Project.py"
+        self.script = "PlatformerProject.py"
  
         #Name of program
         self.project_name = "Platformer Project"
@@ -68,7 +68,7 @@ class BuildExe:
         self.icon_file = None
  
         #Extra files/dirs copied to game
-        self.extra_datas = ["data"]
+        self.extra_datas = ["data", "gamelib", "backup", "GNU License.txt", "N64 Button Log.txt", "Controls.txt", "Setup.py", "PlatformerProject.py"]
  
         #Extra/excludes python modules
         self.extra_modules = []

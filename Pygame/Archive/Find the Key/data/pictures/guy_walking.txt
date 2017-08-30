@@ -1,3 +1,0 @@
-frame 0 3
-frame 1 5
-frame 2 3

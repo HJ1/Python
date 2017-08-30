@@ -1,0 +1,8 @@
+Keyboard:
+
+Move - Arrow Keys Left Right
+Jump - Spacebar
+Controls - C Key
+Check Position X, Y - Z Key
+Pause - P Key
+Quit - ESQ Key 
