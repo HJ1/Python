@@ -1,12 +1,11 @@
 # Made by HJ. Version 2.3
 # Project from 2014-2015
-#Game has support for N64 controller.
+#Game is for PC only.
 import pygame, time, math, sys, random, os
 from pygame.locals import *
 from GrabMenu import *
 pygame.init()
-pygame.joystick.init()
-    
+   
 def filepath(filename):
     data_dir = os.path.normpath(os.path.join('data'))
     return os.path.join(data_dir, filename)
@@ -150,7 +149,7 @@ def main():
             pos = pygame.mouse.get_pos()
             collide = pygame.sprite.spritecollide(self, allSprites, False)
             if collide:
-                if pos[0] < 640 and pos[0] > 85: # Player crashes with the borders
+                if pos[0] < 640 and pos[0]> 85: # Player crashes with the borders
                     self.rect.x = pos[0] - 5
                 if pos[1] > 5 and pos[1] < 770: # Player crashes with top of screen and bottom of screen
                     self.rect.y = pos[1]
@@ -608,93 +607,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 done = True
-            #N64
-            elif event.type == pygame.JOYBUTTONDOWN:
-                print event
-            elif event.type == pygame.JOYBUTTONUP:
-                print event
-            if event.type == pygame.JOYBUTTONDOWN and event.button == 7:
-                print "A BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 6:
-                print "B BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 4:
-                print "START BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 13:
-                print "L BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 12:
-                print "R BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 5:
-                print "Z BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 11:
-                print "C BUTTON UP"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 10:
-                print "C BUTTON DOWN"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 9:
-                print "C BUTTON LEFT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 8:
-                print "C BUTTON RIGHT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 3:
-                print "DPAD UP"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 2:
-                print "DPAD DOWN"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 1:
-                print "DPAD LEFT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
-                print "DPAD RIGHT"
-            if event.type == pygame.JOYBUTTONDOWN and event.button == 4:
-                if gameover == True:
-                    done = True
-                    main()
-                else:
-                    while 1:
-                        #pause sound play
-                        ren15 = font.render("Paused", 1, (WHITE))
-                        screen.blit(ren15, (465-ren.get_width(), 350))
-                        pygame.display.update()
-                        event = pygame.event.wait()
-                        if event.type == pygame.JOYBUTTONDOWN and event.button == 4:
-                            break
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 6:
-                stop_music()
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 7:
-                continue_music()
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 13:
-                gameover = True
-                testmode = False
-                pygame.sprite.groupcollide(allSprites, Coins_Bronze, True, True) # Removes the coin + allsprites sprites.
-                pygame.sprite.groupcollide(allSprites, Coins_Silver, True, True) # Removes the coin + allsprites sprites.
-                pygame.sprite.groupcollide(allSprites, Coins_Golden, True, True) # Removes the coin + allsprites sprites.
-                pygame.sprite.spritecollide(player, allSprites, True) # Removes the remaining sprites (player)
-                time = 0 # Keeps the timer at 0
-                if highscore == 0:
-                    pass
-                if highscore < get_highscore():
-                    pass
-                else:
-                    save_highscore(highscore)
-                if score == 0:
-                    pass
-                else:
-                    save_score(score)
-                save_level(level)
-                save_world(world)
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 12:
-                if highscore == 0:
-                    pass
-                if highscore < get_highscore():
-                    pass
-                else:
-                    save_highscore(highscore)
-                if score == 0:
-                    pass
-                else:
-                    save_score(score)
-                save_level(level)
-                save_world(world)
-                done = True
-                pygame.mixer.music.stop()
-                play_music(menumusic)
-             
+         
             # Keyboard
             if not hasattr(event, 'key'): continue
             if event.type == pygame.KEYDOWN and event.key == pygame.K_p:

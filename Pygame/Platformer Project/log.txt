@@ -1,0 +1,258 @@
+2017-09-03 00:05:10.156000ms: <Event(2-KeyDown {'scancode': 205, 'key': 275, 'unicode': u'', 'mod': 0})>
+KEYBOARD ARROW RIGHT 
+2017-09-03 00:05:11.875000ms: <Event(2-KeyDown {'scancode': 203, 'key': 276, 'unicode': u'', 'mod': 0})>
+KEYBOARD ARROW LEFT 
+2017-09-03 00:05:12.140000ms: <Event(2-KeyDown {'scancode': 205, 'key': 275, 'unicode': u'', 'mod': 0})>
+KEYBOARD ARROW RIGHT 
+2017-09-03 00:05:12.500000ms: <Event(2-KeyDown {'scancode': 203, 'key': 276, 'unicode': u'', 'mod': 0})>
+KEYBOARD ARROW LEFT 
+2017-09-03 00:05:14ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:15.265000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:15.609000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:16.265000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:18.140000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:18.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:18.875000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:18.921000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:19.796000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:20.500000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:20.625000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:21.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:21.828000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:22.625000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:22.671000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:23.078000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:23.468000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:23.484000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:24.390000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:24.453000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:25.765000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:25.968000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:26.765000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:26.812000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:27.250000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:27.281000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:28.015000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:28.093000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:29.937000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:29.953000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:30.750000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:30.765000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:31.562000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:31.609000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:32.421000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:32.484000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:33.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:33.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:34.625000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:34.906000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:35.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:35.406000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:36.578000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:36.703000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:37.734000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:37.750000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:38.734000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:38.765000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:39.703000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:39.734000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:40.562000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:41.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:42.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:42.406000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:43.453000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:44.468000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:44.546000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:45.671000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:45.687000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:46.593000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:46.609000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:47.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:47.468000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:48.546000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:48.593000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:49.656000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:49.671000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:50.734000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:50.750000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:51.781000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:52.171000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:52.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:53.093000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:53.468000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:53.562000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:54.031000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:54.390000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:54.796000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:54.937000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:55.171000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:55.265000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 4})>
+START BUTTON 
+2017-09-03 00:05:57.187000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:05:57.546000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:05:57.562000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:58.484000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 4})>
+START BUTTON 
+2017-09-03 00:05:58.906000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 4})>
+START BUTTON 
+2017-09-03 00:05:59.765000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:05:59.937000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:00.984000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:00.984000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:02.062000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:02.093000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:02.984000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:06:03ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:03.843000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:06:03.859000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:04.921000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:06:04.921000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:06.125000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:06:06.156000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:07.218000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 1})>
+DPAD LEFT 
+2017-09-03 00:06:07.234000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:08.296000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 4})>
+START BUTTON 
+2017-09-03 00:06:09.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:09.875000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:10.250000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:10.640000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:11.171000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:11.203000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:11.968000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:12.515000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:12.656000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:13.375000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:13.781000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:14.062000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:14.375000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:14.406000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:15.296000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:15.359000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:16.343000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:16.375000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:17.812000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 0})>
+DPAD RIGHT 
+2017-09-03 00:06:19.609000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:20.562000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 7})>
+A BUTTON 
+2017-09-03 00:06:22.140000ms: <Event(10-JoyButtonDown {'joy': 0, 'button': 12})>
+R BUTTON 

@@ -1,6 +1,6 @@
 # Made by HJ. Version 2.3
 # Project from 2014-2015
-#Game has support for N64 controller.
+#Game is for PC only
 import pygame, os, sys
 from pygame.locals import *
 pygame.init()
@@ -82,13 +82,6 @@ class GrabMenu(object):
     Menu3 = False #reset score menu
     Menu4 = False #how to play
     play_music(menumusic)
-    #JOYSTICK - N64
-    try:
-        j = pygame.joystick.Joystick(0) # create a joystick instance
-        j.init() # init instance
-        print 'Enabled joystick: ' + j.get_name()
-    except:
-        pass
     
     #main_loop
     while running == True:
@@ -98,48 +91,7 @@ class GrabMenu(object):
                 running = False
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                 running = False, sys.exit()
-                
-            #N64
-            if event.type == pygame.JOYAXISMOTION:
-                x , y = j.get_axis(0), j.get_axis(1)
-                x+= 1
-            if event.type == pygame.JOYBUTTONDOWN and event.button == 6:
-                stop_music()
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 7:
-                continue_music()
-            if event.type == pygame.JOYBUTTONDOWN:
-                print event
-            elif event.type == pygame.JOYBUTTONUP:
-                print event
-            if event.type == pygame.JOYBUTTONDOWN and event.button == 7:
-                print "A BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 6:
-                print "B BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 4:
-                print "START BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 13:
-                print "L BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 12:
-                print "R BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 5:
-                print "Z BUTTON"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 11:
-                print "C BUTTON UP"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 10:
-                print "C BUTTON DOWN"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 9:
-                print "C BUTTON LEFT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 8:
-                print "C BUTTON RIGHT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 3:
-                print "DPAD UP"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 2:
-                print "DPAD DOWN"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 1:
-                print "DPAD LEFT"
-            elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
-                print "DPAD RIGHT"
-                
+                    
             #Keyboard
             if event.type == MOUSEBUTTONDOWN and event.button == 1: # if mouse button is pressed (left mouse key only)
                 if Menu1:
@@ -194,53 +146,6 @@ class GrabMenu(object):
                         mouseclick.play()
                         Menu4 = False
                         Menu1 = True
-            else:
-                if event.type == pygame.JOYBUTTONDOWN and event.button == 7:
-                    if Menu1:
-                        if ren_r.collidepoint(pygame.mouse.get_pos()): # play the game
-                            if Menu1 == False:
-                                pass
-                            else:
-                                mouseclick.play()
-                                run_game()
-                        elif ren2_r.collidepoint(pygame.mouse.get_pos()): #options
-                            if Menu1 == False:
-                                pass
-                            else:
-                                mouseclick.play()
-                                Menu1 = False
-                                Menu2 = True
-                        elif ren3_r.collidepoint(pygame.mouse.get_pos()): #how to play
-                            if Menu1 == False:
-                                pass
-                            else:
-                                mouseclick.play()
-                        elif ren4_r.collidepoint(pygame.mouse.get_pos()): #quit the game
-                            if Menu1 == False:
-                                pass
-                            else:
-                                mouseclick.play()
-                                running = False, pygame.quit(), sys.exit()
-                    elif Menu2:
-                        if ren5_r.collidepoint(pygame.mouse.get_pos()): #reset high score
-                            mouseclick.play()
-                            Menu2 = False
-                            Menu3 = True
-                            
-                        elif ren6_r.collidepoint(pygame.mouse.get_pos()): #go back
-                            mouseclick.play()
-                            Menu1 = True
-                            Menu2 = False
-                    elif Menu3:
-                        if ren7_r.collidepoint(pygame.mouse.get_pos()): #reset high score
-                            mouseclick.play()
-                            reset_highscore()
-                            Menu3 = False
-                            Menu2 = True
-                        elif ren8_r.collidepoint(pygame.mouse.get_pos()): #reset high score
-                            mouseclick.play()
-                            Menu2 = True
-                            Menu3 = False
                     
             if not hasattr(event, 'key'): continue
             if event.key == K_s: #pause music
